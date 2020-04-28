@@ -1,0 +1,306 @@
+.bodyFunc1{
+    background: url("../images/func1.jpg") no-repeat;
+    background-size:100%;
+}
+.bodyFunc2{
+    background: url("../images/func2.jpg") no-repeat;
+    background-size:100%;
+}
+.bodyFunc3{
+    background: url("../images/func3.jpg") no-repeat;
+    background-size:100%;
+}
+.displayCentre {
+    width: 1200px;
+    height: 600px;
+	margin: 0 auto;
+}
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+    line-height: 31px;
+}
+.shortcut li {
+	float: left;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.logo a {
+    margin-left: 490px;
+	display: block;
+	width: 175px;
+	height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    border-radius: 40px;
+    /* background-color: aqua; use for test */
+}
+
+
+/* .search {
+	position: absolute;
+	top: 25px;
+    left: 348px;
+    testing function
+} */
+.textAppear {
+   
+    font-style: italic;
+    color: rgb(240, 227, 227);
+    margin-left: 300px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 250px;
+    height: 40px;
+    /* background-color: pink; use for test*/
+    white-space: nowrap;
+    animation: typing 3s steps(27) forwards;
+}
+
+.textAppearInFunc1Line2{ 
+    /* text-decoration: underline; */
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 50px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 250px;
+    height: 45px;
+    /* background-color: pink; use for test*/
+    white-space: nowrap;
+    animation: typingInFunc1Line2 4s steps(52) forwards;
+}
+.textAppearInFunc2Line2{
+    /* text-decoration: underline; */
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 170px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 250px;
+    height: 45px;
+    /* background-color: pink; use for test*/
+    white-space: nowrap;
+    animation: typingInFunc2Line2 4s steps(38) forwards;
+}
+.textAppearInFunc3Line2{
+    /* text-decoration: underline; */
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 150px;
+    overflow: hidden;
+    font-size: 40px;
+    width: 250px;
+    height: 45px;
+    /* background-color: pink; use for test*/
+    white-space: nowrap;
+    animation: typingInFunc3Line2 4s steps(45) forwards;
+}
+@keyframes typingInFunc3Line2 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 1200px;
+    }
+}
+@keyframes typingInFunc2Line2 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 1200px;
+    }
+}
+@keyframes typingInFunc1Line2 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 1200px;
+    }
+}
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 580px;
+    }
+}
+
+.red{
+    color: red;
+}
+.but1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    left: 700px;
+    top: 400px;
+  
+  }
+  
+  .but1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .but1 span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but1:hover span {
+    padding-right: 25px;
+  }
+  
+  .but1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .videoBackground{
+      height: 120%;
+      width: 150%;
+      margin: 0px;
+      margin-left: -150px;
+  }
+
+  .centerBox{
+      height: 500px;
+      width: 580px;
+      background-color: rgb(39, 39, 39);
+      opacity: 0.4;
+      position: absolute;
+      bottom: 380px;
+      left: 570px;
+      border-radius: 5px;
+  }
+
+  .aboutMeBody{
+   overflow: hidden;
+  }
+
+  .headIcon{
+      position: absolute;
+      bottom: 73%;
+      left:48%;
+      height: 170px;
+      width: 120px;
+      background:url(../images/headicon.png) no-repeat;
+      background-size:100%;
+      opacity: 1;
+  }
+
+  .iam{
+      color: ivory;
+      font-size: 30px;
+      position: absolute;
+      bottom: 72%;
+      left:39%
+  }
+
+  .myName{
+    color: ivory;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 72%;
+    left:42%
+  }
+
+  .justA{
+    color: ivory;
+    font-size: 30px;
+    position: absolute;
+    bottom: 72%;
+    left:52.2%
+  }
+
+  .student{
+    color: ivory;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 72%;
+    left:55%
+  }
+
+  .school{
+    color: ivory;
+    font-size: 30px;
+    position: absolute;
+    bottom: 68%;
+    left:40%
+ }
+
+.sentence{
+        font-style:italic;
+        color: ivory;
+        font-size: 30px;
+        position: absolute;
+        bottom: 61%;
+        left:40.3%
+ }
+
+    .buttonInMe {
+        position: absolute;
+        bottom: 48%;
+        left: 44.4%;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;   
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: rgb(61, 193, 245);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+ }
+      
+      .buttonInMe:hover {background-color: #528bf3}
+      
+      .buttonInMe:active {
+        background-color: #528bf3;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+  }
+  .well{
+    margin-left: 300px;
+    background-color: rgb(243, 201, 16);
+}
+.signUpBody{
+    background: url(../images/signup.jpg) no-repeat;
+    background-size:100%;
+}
+.goBackIndex{
+    position: absolute;
+    bottom:-40px;
+    left: 240px;
+}
