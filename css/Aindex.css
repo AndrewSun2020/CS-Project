@@ -12,7 +12,7 @@ button {
     bottom: 600px;
     width: 200px;
     height: 100px;
-    background: url(../images/bear.png) no-repeat;
+    background: url(../images/whitebear.png) no-repeat;
     animation: bear .5s steps(8) infinite, move 4s forwards;
 }
 
